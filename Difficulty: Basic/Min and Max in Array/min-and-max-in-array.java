@@ -7,14 +7,13 @@ class Solution {
             if(arr[i] < min){
                  min = arr[i];
             }
-       
-            if (arr[i] > max){
-                 max = arr[i];
+            if(arr[i] > max){
+                max = arr[i];
             }
-        }
-         ArrayList <Integer> list = new ArrayList<>();
-         list.add(min);
-         list.add(max);
-         return list;
     }
+    ArrayList <Integer> List = new ArrayList <> ();
+    List.add(min);
+    List.add(max);
+    return List;
+}
 }
